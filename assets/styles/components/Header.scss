@@ -8,13 +8,22 @@
   &-title {
     font-size: 35px;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: uppercase;
 
     margin-bottom: 8px;
+
+    line-height: 33px;
 
 
     span {
       color: #995000;
     }
+  }
+
+  &-text {
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(0, 0, 0, 0.7);
   }
 }
